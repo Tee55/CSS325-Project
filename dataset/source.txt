@@ -1,0 +1,2 @@
+SQLiV3.csv: https://www.kaggle.com/datasets/syedsaqlainhussain/sql-injection-dataset
+dataset.csv: https://github.com/ferasalnaem/sqli-detection-using-ML
