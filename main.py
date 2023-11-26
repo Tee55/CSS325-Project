@@ -1,7 +1,5 @@
 from flask import Flask, flash, redirect, url_for, request, render_template
-from sklearn.feature_extraction.text import CountVectorizer
 import tensorflow as tf
-import numpy as np
 import pickle
 import os
 
