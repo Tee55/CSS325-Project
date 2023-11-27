@@ -15,7 +15,7 @@ def login():
     if request.method == 'POST':
         passwd = request.form['pass']
         corpus = [passwd]
-        vectorizer = pickle.load(open("vectorizer_cnn", 'rb'))
+        vectorizer = pickle.load(open("vectorizer_cnn.obj", 'rb'))
         count_matrix = vectorizer.transform(corpus).toarray()
         print(count_matrix.shape)
         loaded_model = tf.keras.saving.load_model("model.keras")
